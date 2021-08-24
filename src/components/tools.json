@@ -1,0 +1,30 @@
+[
+  {
+    "id": "2806",
+    "name": "M18 1/2\" Drill",
+    "description": "The M18 FUEL™ 1/2\" Hammer Drill with ONE-KEY™ is the industry's most powerful drill, delivering Up To 60% More Power, Up To 1.5\" Shorter Length and Up To 2X Faster Speed Under Heavy Load.",
+    "price": 469.0,
+    "image": "https://www.milwaukeetool.com/-/media/Products/Power-Tools/Cordless/Drills/2806-22_5.png?mw=520&mh=520&hash=4B88C6CF839B30BEF2D7194CEE7DF081"
+  },
+  {
+    "id": "2857",
+    "name": "M18 1/4\" Impact Driver",
+    "description": "Our M18 FUEL™ ¼” Impact Driver with ONE-KEY™ is the Fastest, Most Compact, and Most Powerful tool in its class. The POWERSTATE™ Brushless motor produces up to 2,000in-lbs of torque, delivering Up To 30% Faster Driving Speed, increasing the impact drill's productivity for the most demanding fasteners on the job.",
+    "price": 399.0,
+    "image": "https://www.milwaukeetool.com/-/media/Products/Power-Tools/Cordless/Drills/2857-22_5.png?mw=520&mh=520&hash=016CDABA9F4B9CA282FBEF7342601382"
+  },
+  {
+    "id": "2822",
+    "name": "M18 Sawzall/Recip Saw",
+    "description": "Our M18 FUEL™ SAWZALL® Recip Saw is the next generation of legendary performance and durability, designed for the toughest jobsite applications. The M18 FUEL™ SAWZALL® is the fastest cutting reciprocating saw in its class and leverages a POWERSTATE™ Brushless Motor to provide you with 3,000 SPM and a 1-1/4\" stroke length for faster material removal.",
+    "price": 599.0,
+    "image": "https://www.milwaukeetool.com/-/media/Products/2822/2822-22_3.png?mw=520&mh=520&hash=D9411144CB2B79D9FB0E3AFBC10BDFE4"
+  },
+  {
+    "id": "2830",
+    "name": "M18 7-1/4\" Rear Handle Circular Saw",
+    "description": "Our MILWAUKEE® M18 FUEL™ 7-1/4\" Rear Handle Circular Saw is designed for the professional carpenter, remodeler, and general contractor. The circular saw can Generate the Power of 15amp corded saws, cut faster than 15amp corded worm drive saws and provide you with up to 570 cuts per charge with our M18™ REDLITHIUM™ HIGH OUTPUT™ HD12.0 battery attached.",
+    "price": 599.0,
+    "image": "https://www.milwaukeetool.com/-/media/Products/Power-Tools/Cordless/Saws-and-Cutters/2830-22HD_1.png?mw=520&mh=520&hash=71CBDE1A0DC55EA4F204426C9C0C0536"
+  }
+]

@@ -1,0 +1,13 @@
+.product-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+.products-page > h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 5px;
+}

@@ -1,0 +1,24 @@
+.nav-bar {
+  background-color: black;
+}
+
+.nav-bar > ul {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+}
+
+.home {
+  flex-grow: 1;
+}
+
+.nav-link > a {
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  margin: 0px 25px;
+  font-size: 20px;
+}
+
+.nav-link > a:hover {
+  color: rgb(200, 200, 200);
+}

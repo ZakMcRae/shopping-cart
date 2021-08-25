@@ -1,0 +1,44 @@
+.product-card {
+  background-color: white;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.tool-image {
+  display: block;
+  margin: 0px auto;
+  width: 200px;
+}
+
+.tool-name {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid gray;
+}
+
+.description {
+  font-size: 14px;
+  padding: 0px 25px;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.buy-button {
+  padding: 0px 10px;
+  background-color: #dc4438;
+  color: white;
+  border-radius: 5px;
+}

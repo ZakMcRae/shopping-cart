@@ -1,3 +1,5 @@
+import "./homepage.css";
+
 const HomePage = () => {
   return (
     <div className="home-page">

@@ -1,0 +1,22 @@
+.home-page > img {
+  position: relative;
+  width: 100%;
+  display: block;
+  margin: auto;
+  max-width: 800px;
+  filter: opacity(0.7);
+}
+
+.text-section {
+  margin: 0px 25px;
+  background-color: rgba(230, 230, 230, 0.4);
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text-section > * {
+  margin: auto;
+  text-align: center;
+}

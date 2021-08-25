@@ -3,7 +3,8 @@
   padding: 0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
 body {
-  font-family: sans-serif;
-  background-color: rgb(230, 230, 230);
+  font-family: "Open Sans", serif;
 }

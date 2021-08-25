@@ -9,7 +9,7 @@ const ProductCard = (props) => {
       <p className="description">{description}</p>
       <div className="bottom-section">
         <p className="price">${price.toFixed(2)}</p>
-        <button id={id} className="buy-button">
+        <button id={id} className="buy-button" onClick={props.addToCart}>
           Add to Cart
         </button>
       </div>

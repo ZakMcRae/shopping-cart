@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./nav.css";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <div className="nav-bar">
       <ul>
@@ -12,7 +12,14 @@ const Nav = () => {
           <Link to="/products">Products</Link>
         </li>
         <li className="nav-link">
-          <Link to="#">Cart</Link>
+          <Link
+            to="#"
+            onClick={() => {
+              props.setShowCart(true);
+            }}
+          >
+            Cart
+          </Link>
         </li>
       </ul>
     </div>

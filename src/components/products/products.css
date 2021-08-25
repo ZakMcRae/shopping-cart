@@ -1,6 +1,7 @@
 .products-page {
   background-color: rgb(230, 230, 230);
   height: 100vh;
+  /* todo 100vh for background doesn't work nice on narrow width/mobile */
 }
 
 .product-section {

@@ -26,5 +26,33 @@
     "description": "This Saw Generates the Power of 15amp corded saws, cut faster than 15amp corded worm drive saws and provide you with up to 570 cuts per charge.",
     "price": 599.0,
     "image": "https://www.milwaukeetool.com/-/media/Products/Power-Tools/Cordless/Saws-and-Cutters/2830-22HD_1.png?mw=520&mh=520&hash=71CBDE1A0DC55EA4F204426C9C0C0536"
+  },
+  {
+    "id": "48-32-4006",
+    "name": "Impact Duty Drill & Drive Set - 40PC",
+    "description": "Our 40 Piece SHOCKWAVE™ Impact Driver Bits are engineered to be the Most Durable, Best Fitting driver bits on the market.",
+    "price": 49.0,
+    "image": "https://www.milwaukeetool.com/-/media/Products/Accessories/Fastening/SHOCKWAVE-Impact-Duty-Accessories/48-32-4006_PK_G3.png?mw=520&mh=520&hash=420D5D6E9057A69E1B0B92CF2ABCDF6B"
+  },
+  {
+    "id": "48-22-9725",
+    "name": "STUD Tape Measures 25ft",
+    "description": "Our STUD™ Tape Measures are the industry's most durable tape measure, equipped with innovative EXO360™ Blade Technology.",
+    "price": 39.0,
+    "image": "https://www.milwaukeetool.com/-/media/Products/Hand-Tools/Short-Tape-Measures/48-22-9725/48-22-9725_1.png?sc_lang=en&mw=520&mh=520&hash=3ABF0D46D6F97A88DED251C9956AC59C"
+  },
+  {
+    "id": "48-00-5706",
+    "name": "Multi-Material SAWZALL® Blade 9\"",
+    "description": "This blade is designed for Multi-Material demolition cutting. This means it has the capability of cutting wood, plastics and a variety of metals.",
+    "price": 29.0,
+    "image": "https://www.milwaukeetool.com/-/media/Products/Accessories/Cutting/SAWZALL-Blades/48-00-5706/48-00-5706_PK.png?mw=520&mh=520&hash=47C427A33C4094B9482C237C97848892"
+  },
+  {
+    "id": "48-40-0720",
+    "name": "7-1/4\" 24T Framing Circular Saw Blade",
+    "description": "Wood cutting framing blades maximize life and cutting efficiencies to improve your productivity. Anti-friction coating keeps the blade cool while cutting.",
+    "price": 14.0,
+    "image": "https://www.milwaukeetool.com/-/media/Products/Accessories/Cutting/Circular-Saw-Blades/48-40-0720/48-40-0720_PK.png?mw=520&mh=520&hash=9759E329EA472632B1BC4A6865CC5469"
   }
 ]

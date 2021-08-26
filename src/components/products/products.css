@@ -1,7 +1,6 @@
 .products-page {
   background-color: rgb(230, 230, 230);
-  height: 100vh;
-  /* todo 100vh for background doesn't work nice on narrow width/mobile */
+  height: 100%;
 }
 
 .product-section {
@@ -16,4 +15,10 @@
   text-align: center;
   font-size: 40px;
   padding: 5px;
+}
+
+@media (min-width: 1787px) {
+  .products-page {
+    height: 100vh;
+  }
 }

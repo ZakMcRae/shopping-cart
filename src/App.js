@@ -8,20 +8,39 @@ import ShoppingCart from "./components/shopping-cart/shopping-cart";
 
 function App() {
   const [cart, setCart] = useState({});
+  const [itemCount, setItemCount] = useState(null);
   const [showCart, setShowCart] = useState(false);
 
   const addToCart = (e) => {
     const id = e.target.id;
+    setItemCount((prevItemCount) => prevItemCount + 1);
 
-    // if doesn't exist in card set to 1 otherwise increase 1
+    // if doesn't exist in cart set to 1 otherwise increase 1
     setCart((prevCart) => {
       return { ...prevCart, [id]: prevCart[id] + 1 || 1 };
     });
   };
 
+  const removeFromCart = (e) => {
+    const id = e.target.id;
+    setItemCount((prevItemCount) => prevItemCount - 1);
+
+    setCart((prevCart) => {
+      // if item has quantity of 1 delete that item from cart
+      // don't want item to render in cart with qty 0/undefined
+      if (prevCart[id] === 1) {
+        const cart = { ...prevCart };
+        delete cart[id];
+        return cart;
+      } else {
+        return { ...prevCart, [id]: prevCart[id] - 1 };
+      }
+    });
+  };
+
   return (
     <Router>
-      <Nav setShowCart={setShowCart} />
+      <Nav setShowCart={setShowCart} count={itemCount} />
       <Switch>
         <Route exact path="/">
           <HomePage />
@@ -30,7 +49,14 @@ function App() {
           <Products addToCart={addToCart} />
         </Route>
       </Switch>
-      {showCart ? <ShoppingCart setShowCart={setShowCart} /> : null}
+      {showCart ? (
+        <ShoppingCart
+          setShowCart={setShowCart}
+          cart={cart}
+          addToCart={addToCart}
+          removeFromCart={removeFromCart}
+        />
+      ) : null}
     </Router>
   );
 }

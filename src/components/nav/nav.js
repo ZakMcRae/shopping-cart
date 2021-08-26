@@ -18,7 +18,7 @@ const Nav = (props) => {
               props.setShowCart(true);
             }}
           >
-            Cart
+            Cart {props.count}
           </Link>
         </li>
       </ul>

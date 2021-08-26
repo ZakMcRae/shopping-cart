@@ -6,3 +6,8 @@
   width: 350px;
   height: 100%;
 }
+
+.order-total {
+  text-align: center;
+  font-size: 26px;
+}

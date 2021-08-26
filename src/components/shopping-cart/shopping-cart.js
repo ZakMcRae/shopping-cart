@@ -22,34 +22,42 @@ const ShoppingCart = (props) => {
   }, [cart]);
 
   return (
-    <div className="shopping-cart">
-      <h3>Cart</h3>
-      <button
+    <div className="cart-page">
+      <div
+        className="close-cart"
         onClick={() => {
           setShowCart(false);
         }}
-      >
-        X
-      </button>
-      <div className="cart-items">
-        {Object.keys(cart).map((item) => {
-          return item ? (
-            <CartCard
-              key={item}
-              partNumber={item}
-              quantity={cart[item]}
-              addToCart={props.addToCart}
-              removeFromCart={props.removeFromCart}
-            />
-          ) : null;
-        })}
-      </div>
-      <div className="order-total">
-        {orderTotal ? (
-          <p>Total: {orderTotal.toFixed(2)}</p>
-        ) : (
-          <p>Your cart is empty</p>
-        )}
+      ></div>
+      <div className="shopping-cart">
+        <h3>Cart</h3>
+        <button
+          onClick={() => {
+            setShowCart(false);
+          }}
+        >
+          X
+        </button>
+        <div className="cart-items">
+          {Object.keys(cart).map((item) => {
+            return item ? (
+              <CartCard
+                key={item}
+                partNumber={item}
+                quantity={cart[item]}
+                addToCart={props.addToCart}
+                removeFromCart={props.removeFromCart}
+              />
+            ) : null;
+          })}
+        </div>
+        <div className="order-total">
+          {orderTotal ? (
+            <p>Total: {orderTotal.toFixed(2)}</p>
+          ) : (
+            <p>Your cart is empty</p>
+          )}
+        </div>
       </div>
     </div>
   );

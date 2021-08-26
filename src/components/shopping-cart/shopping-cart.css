@@ -1,6 +1,7 @@
 .shopping-cart {
   position: absolute;
   background-color: gray;
+  z-index: 1;
   top: 47px;
   right: 0;
   width: 350px;
@@ -10,4 +11,16 @@
 .order-total {
   text-align: center;
   font-size: 26px;
+}
+
+.nav-bar {
+  z-index: 1;
+}
+
+.close-cart {
+  position: fixed;
+  top: 0px;
+  background-color: rgba(230, 230, 230, 0.85);
+  height: 100vh;
+  width: 100%;
 }

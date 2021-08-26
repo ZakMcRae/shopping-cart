@@ -14,8 +14,9 @@ const Nav = (props) => {
         <li className="nav-link">
           <Link
             to="#"
+            // toggle cart on click
             onClick={() => {
-              props.setShowCart(true);
+              props.setShowCart((prevShowCart) => !prevShowCart);
             }}
           >
             Cart {props.count}

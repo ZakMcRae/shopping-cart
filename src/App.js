@@ -23,7 +23,11 @@ function App() {
 
   const removeFromCart = (e) => {
     const id = e.target.id;
-    setItemCount((prevItemCount) => prevItemCount - 1);
+    setItemCount((prevItemCount) => {
+      // return null to not display cart count on nav link
+      if (prevItemCount === 1) return null;
+      else return prevItemCount - 1;
+    });
 
     setCart((prevCart) => {
       // if item has quantity of 1 delete that item from cart

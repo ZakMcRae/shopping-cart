@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import { useState } from "react";
 import "./App.css";
 import Nav from "./components/nav/nav";
@@ -43,7 +43,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <HashRouter basename="/">
       <Nav setShowCart={setShowCart} count={itemCount} />
       <Switch>
         <Route exact path="/">
@@ -61,7 +61,7 @@ function App() {
           removeFromCart={removeFromCart}
         />
       ) : null}
-    </Router>
+    </HashRouter>
   );
 }
 

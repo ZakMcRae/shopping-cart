@@ -1,11 +1,15 @@
 .nav-bar {
-  background-color: black;
+  background-color: #dc4438;
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+  height: 46px;
 }
 
 .nav-bar > ul {
   display: flex;
   flex-direction: row;
   padding: 10px 0px;
+  list-style: none;
 }
 
 .home {
@@ -13,7 +17,7 @@
 }
 
 .nav-link > a {
-  color: rgb(230, 230, 230);
+  color: white;
   text-decoration: none;
   margin: 0px 25px;
   font-size: 20px;
@@ -21,4 +25,21 @@
 
 .nav-link > a:hover {
   color: rgb(200, 200, 200);
+}
+
+.cart-icon {
+  margin-right: 10px;
+  fill: white;
+}
+
+.cart-count {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: black;
+  padding: 0px 5px;
+  font-size: 12px;
 }

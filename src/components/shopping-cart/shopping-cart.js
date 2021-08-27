@@ -30,14 +30,7 @@ const ShoppingCart = (props) => {
         }}
       ></div>
       <div className="shopping-cart">
-        <h3>Cart</h3>
-        <button
-          onClick={() => {
-            setShowCart(false);
-          }}
-        >
-          X
-        </button>
+        <h3 className="cart-heading">Cart</h3>
         <div className="cart-items">
           {Object.keys(cart).map((item) => {
             return item ? (
@@ -53,7 +46,20 @@ const ShoppingCart = (props) => {
         </div>
         <div className="order-total">
           {orderTotal ? (
-            <p>Total: {orderTotal.toFixed(2)}</p>
+            <div className="cart-bottom">
+              <p className="cart-total">Total: {orderTotal.toFixed(2)}</p>
+              <button
+                className="checkout-button"
+                onClick={() => {
+                  alert(
+                    "This is just a demo website.\n\n No tools here unfortunately"
+                  );
+                }}
+              >
+                Checkout
+              </button>
+              {/* <button>Close</button> */}
+            </div>
           ) : (
             <p>Your cart is empty</p>
           )}

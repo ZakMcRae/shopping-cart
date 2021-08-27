@@ -1,11 +1,21 @@
 .shopping-cart {
   position: absolute;
-  background-color: gray;
+  background-color: rgb(230, 230, 230);
   z-index: 1;
-  top: 47px;
+  top: 50px;
   right: 0;
   width: 350px;
-  min-height: 400px;
+  min-height: 250px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cart-items {
+  max-height: 500px;
+  overflow-y: scroll;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .order-total {
@@ -20,7 +30,25 @@
 .close-cart {
   position: fixed;
   top: 0px;
-  background-color: rgba(230, 230, 230, 0.85);
+  background-color: rgba(0, 0, 0, 0.75);
   height: 100vh;
   width: 100%;
+}
+
+.cart-heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.cart-bottom > button {
+  padding: 5px 10px;
+  background-color: #dc4438;
+  font-size: 20px;
+  color: white;
+  width: 125px;
+  border-radius: 5px;
+}
+
+.cart-total {
+  font-size: 30px;
 }

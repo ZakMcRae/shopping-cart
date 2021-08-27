@@ -1,22 +1,65 @@
 .home-page > img {
   position: relative;
   width: 100%;
-  display: block;
-  margin: auto;
-  max-width: 800px;
-  filter: opacity(0.7);
+  height: 100vh;
+  object-fit: cover;
 }
 
-.text-section {
-  margin: 0px 25px;
-  background-color: rgba(230, 230, 230, 0.4);
+.store-name {
+  font-family: "Russo One", sans-serif;
   position: absolute;
   top: 25%;
   left: 50%;
   transform: translateX(-50%);
+  width: 80%;
+  text-align: center;
+  text-shadow: 2px 2px 5px white;
+
+  font-size: 70px;
 }
 
-.text-section > * {
+.text-section {
+  font-family: "Russo One", sans-serif;
+  color: black;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 0px 10px;
+  position: absolute;
+  margin: 0px auto;
+  width: 80%;
+  /* height: 100px; */
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-section > h2 {
   margin: auto;
   text-align: center;
+  font-size: 32px;
+  text-overflow: ellipsis;
+}
+
+.browse-button {
+  font-family: "Open Sans", serif;
+  width: 120px;
+  padding: 5px 10px;
+  background-color: #dc4438;
+  font-size: 20px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+
+  text-align: center;
+  margin: 5px auto;
+}
+
+@media (min-width: 650px) {
+  .text-section {
+    width: 600px;
+  }
 }

@@ -17,6 +17,7 @@
 }
 
 .nav-link > a {
+  font-family: "Russo One", sans-serif;
   color: white;
   text-decoration: none;
   margin: 0px 25px;

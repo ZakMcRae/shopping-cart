@@ -11,7 +11,7 @@ const HomePage = () => {
       <div className="overlay">
         <h1 className="store-name">The Tool Store</h1>
         <div className="text-section">
-          <h2>We have right the tools for the job</h2>
+          <h2>We have the right tools for the job</h2>
           <Link to="/products" className="browse-button">
             Shop Now
           </Link>
